@@ -6,17 +6,17 @@ class TestGame < Minitest::Test
 
   def test_rock_rock
     game = Game.new("rock", "rock")
-    assert_equal( "It is a draw", game.run)
+    assert_equal( "Sorry, it is a draw", game.run)
   end
 
   def test_scissor_scissor
     game = Game.new("scissor", "scissor")
-    assert_equal( "It is a draw", game.run)
+    assert_equal( "Sorry, it is a draw", game.run)
   end
 
   def test_paper_paper
     game = Game.new("paper", "paper")
-    assert_equal( "It is a draw", game.run)
+    assert_equal( "Sorry, it is a draw", game.run)
   end
 
   def test_rock_scissors

@@ -21,8 +21,4 @@ get '/play/:hand1/:hand2' do
   erb (:result)
 end
 
-# get '/play/:hand1/:hand2' do
-#   calculator = Calculator.new(params[:num1].to_i, params[:num2].to_i)
-#   @calculation = calculator.add
-#   erb(:result)
-# end
+#

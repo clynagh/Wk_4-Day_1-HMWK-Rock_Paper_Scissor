@@ -7,7 +7,7 @@ class Game
 
   def run
     if @hand1 == @hand2
-      return "It is a draw"
+      return "Sorry, it is a draw"
     elsif (@hand1 == "rock" && @hand2 == "scissor") || (@hand2 == "rock" && @hand1 == "scissor")
       return "Rock is the winner!"
     elsif (@hand1 == "paper" && @hand2 == "rock") || (@hand2 == "paper" && @hand1 == "rock")
